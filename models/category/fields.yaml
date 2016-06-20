@@ -1,0 +1,21 @@
+fields:
+    category_name:
+        label: 'Crop Name'
+        span: auto
+        placeholder: 'Add your crop'
+        required: 1
+        type: text
+        commentAbove: 'Choose your choice of crop'
+    category_description:
+        label: 'Category Description'
+        size: small
+        span: auto
+        placeholder: 'Add a description'
+        type: textarea
+        commentAbove: 'Add a description for your category (optional)'
+    is_visible:
+        label: Visibility
+        span: auto
+        default: 1
+        type: checkbox
+        comment: 'Show this product?'

@@ -1,0 +1,20 @@
+plugin:
+    name: 'stone.products::lang.plugin.name'
+    description: 'stone.products::lang.plugin.description'
+    author: Stone
+    icon: oc-icon-th-list
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Crops & Varieties
+        url: stone/products/products
+        icon: icon-pagelines
+        sideMenu:
+            side-menu-item:
+                label: Crops
+                url: stone/products/categories
+                icon: icon-pagelines
+            side-menu-item2:
+                label: Varieties
+                url: stone/products/products
+                icon: icon-th-list

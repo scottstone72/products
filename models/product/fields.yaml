@@ -1,0 +1,44 @@
+fields:
+    category:
+        label: Crop
+        nameFrom: category_name
+        span: auto
+        type: relation
+        commentAbove: 'Please select your crop for this variety'
+    product_name:
+        label: 'Crop Variety'
+        span: auto
+        placeholder: 'Add the variety of crop'
+        required: 1
+        type: text
+        commentAbove: 'Add the variety for the crop you have chosen'
+    product_description:
+        label: 'Variety Description'
+        prompt: 'Add new bullet point description'
+        span: left
+        type: repeater
+        commentAbove: 'Add a one line description for the variety you have chosen'
+        form:
+            fields:
+                product_description:
+                    label: 'Variety Description'
+                    size: ''
+                    span: left
+                    type: textarea
+                    commentAbove: 'Add a one line description for the variety you have chosen'
+    available:
+        label: Available
+        span: right
+        type: checkbox
+    soldout:
+        label: 'Sold Out'
+        span: right
+        type: checkbox
+    new:
+        label: New
+        span: right
+        type: checkbox
+    limited:
+        label: Limited
+        span: right
+        type: checkbox

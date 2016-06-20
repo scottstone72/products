@@ -1,0 +1,32 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table stone_products_product'
+    - builder_table_create_stone_products_product.php
+1.0.3:
+    - 'Updated table stone_products_product'
+    - builder_table_update_stone_products_product.php
+1.0.4:
+    - 'Updated table stone_products_product'
+    - builder_table_update_stone_products_category.php
+1.0.5:
+    - 'Created table stone_products_'
+    - builder_table_create_stone_products_.php
+1.0.6:
+    - 'Updated table stone_products_'
+    - builder_table_update_stone_products_product_2.php
+1.0.7:
+    - 'Updated table stone_products_category'
+    - builder_table_update_stone_products_category_2.php
+1.0.8:
+    - 'Updated table stone_products_product'
+    - builder_table_update_stone_products_product_3.php
+1.0.9:
+    - 'Updated table stone_products_product'
+    - builder_table_update_stone_products_product_4.php
+1.0.10:
+    - 'Updated table stone_products_product'
+    - builder_table_update_stone_products_product_5.php
+1.0.11:
+    - 'Updated table stone_products_category'
+    - builder_table_update_stone_products_category_3.php

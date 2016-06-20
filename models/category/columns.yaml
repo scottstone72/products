@@ -1,0 +1,9 @@
+columns:
+    category_name:
+        label: 'Category Name'
+        type: text
+        sortable: true
+        searchable: true
+    category_description:
+        label: 'Category Description'
+        type: text

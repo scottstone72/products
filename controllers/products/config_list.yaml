@@ -1,0 +1,11 @@
+list: $/stone/products/models/product/columns.yaml
+modelClass: Stone\Products\Models\Product
+title: Products
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: false
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'stone/products/products/update/:id'

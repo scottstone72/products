@@ -1,0 +1,12 @@
+# ===================================
+#  Relation Behavior Config
+# ===================================
+
+#category:
+#    label: Crop Variety
+#    view:
+#        list: $/stone/products/models/category/columns.yaml
+#        toolbarButtons: create|delete
+#    manage:
+#        form: $/stone/products/models/category/fields.yaml
+#        recordsPerPage: 10

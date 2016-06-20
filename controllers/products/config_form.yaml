@@ -1,0 +1,10 @@
+name: Products
+form: $/stone/products/models/product/fields.yaml
+modelClass: Stone\Products\Models\Product
+defaultRedirect: stone/products/products
+create:
+    redirect: 'stone/products/products/update/:id'
+    redirectClose: stone/products/products
+update:
+    redirect: stone/products/products
+    redirectClose: stone/products/products

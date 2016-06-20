@@ -1,0 +1,10 @@
+name: Categories
+form: $/stone/products/models/category/fields.yaml
+modelClass: Stone\Products\Models\Category
+defaultRedirect: stone/products/categories
+create:
+    redirect: 'stone/products/categories/update/:id'
+    redirectClose: stone/products/categories
+update:
+    redirect: stone/products/categories
+    redirectClose: stone/products/categories

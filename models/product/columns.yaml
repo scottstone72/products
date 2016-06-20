@@ -1,0 +1,11 @@
+columns:
+    product_name:
+        label: 'Variety'
+        type: text
+        searchable: true
+
+    category:
+        label: 'Crop'
+        relation: category
+        select: category_name
+        searchable: true
